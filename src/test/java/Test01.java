@@ -51,9 +51,9 @@ public class Test01 {
 						
 						Thread.sleep(2000);		
 
-				//		driver.get("http://demo.guru99.com/test/newtours/");
-				//		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
-				//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
+						driver.get("http://demo.guru99.com/test/newtours/");
+						driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
+						driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 
 				         
 
