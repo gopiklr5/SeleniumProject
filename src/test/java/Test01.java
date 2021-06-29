@@ -50,8 +50,8 @@ public class Test01 {
 						WebDriver driver = new ChromeDriver();
 						
 						Thread.sleep(2000);		
-				//		driver.get("http://demo.guru99.com/test/newtours/");
-				//		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
+						driver.get("http://demo.guru99.com/test/newtours/");
+						driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
 						driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 				         
 
